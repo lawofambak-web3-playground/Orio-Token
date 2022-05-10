@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header {
+  font-size: 90px;
+  padding: 120px 30px 20px 30px;
+}
+
+.PriceInfo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Input {
+  font-size: 25px;
+}
+
+.Button {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: dashed;
+  background-color: black;
+  color: white;
+}
+
+.Footer {
+  position: fixed;     
+  text-align: center;    
+  bottom: 25px; 
+  width: 100%;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
+}
